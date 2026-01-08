@@ -41,7 +41,7 @@ cp .env.example .env
 nano .env  # or use any text editor
 ```
 
-Get your NVIDIA API key from [NVIDIA AI](https://build.nvidia.com/).
+
 
 ### 3. Run the Application
 
