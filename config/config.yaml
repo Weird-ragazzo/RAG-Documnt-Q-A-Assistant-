@@ -1,0 +1,25 @@
+# RAG Configuration
+rag:
+  chunk_size: 500
+  chunk_overlap: 50
+  top_k: 3
+  embedding_model: "all-MiniLM-L6-v2"
+  
+# NVIDIA API
+nvidia:
+  model: "openai/gpt-oss-20b"
+  temperature: 0.7
+  max_tokens: 1024
+  timeout: 30
+
+# Paths
+paths:
+  data_raw: "data/raw"
+  data_processed: "data/processed"
+  indices: "indices"
+  logs: "logs"
+
+# Logging
+logging:
+  level: "INFO"
+  format: "{time:YYYY-MM-DD HH:mm:ss} | {level} | {message}"
